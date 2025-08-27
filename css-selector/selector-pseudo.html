@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Selector Pseudo-class</title>
+  <style>
+    button {
+      background-color: #2980b9;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3498db;
+    }
+
+    p:first-child {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <p>Ini adalah paragraf pertama (akan bold).</p>
+  <p>Paragraf kedua biasa.</p>
+  <button>Klik Saya</button>
+</body>
+</html>

@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  border: 2px solid #333;
+  padding: 10px;
+  margin: 20px auto;
+  width: 80%;
+  height: 200px;
+  background: #f4f4f4;
+}
+
+.item {
+  background: #4CAF50;
+  color: #fff;
+  padding: 20px;
+  margin: 5px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 8px;
+}
